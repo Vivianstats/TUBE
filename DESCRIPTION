@@ -1,0 +1,32 @@
+Package: TUBE
+Title: Bridging Cost-sensitive and Neyman-Pearson Paradigms for Asymmetric Binary Classification
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "Wei Vivian",
+           family = "Li",
+           role = c("aut", "cre"),
+           email = "vivian.li@rutgers.edu",
+           comment = c(ORCID = "0000-0002-2087-2709")),
+    person(given = "Xin",
+           family = "Tong",
+           role = c("aut"),
+           email = "xtong001@gmail.com"),
+    person(given = "Jingyi Jessica",
+           family = "Li",
+           role = c("aut"),
+           email = "jli@stat.ucla.edu"))
+Description: To bridge cost-sensitive and Neyman-Pearson paradigms for asymmetric binary classification, we have developed two algorithms, TUBEc and TUBE (estimating the Type I error Upper Bound of a cost-sensitive classifiEr). This package contains functions of TUBE-assisted and TUBEc-assisted cost-sensitive classification methods for selecting the type I error cost so that the resulting cost-sensitive classifier has its population type I error under a target upper bound with high probability.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+URL: https://arxiv.org/abs/2012.14951
+Imports: 
+    MASS,
+    mvtnorm,
+    stats,
+    glmnet,
+    randomForest,
+    xgboost,
+    naivebayes
